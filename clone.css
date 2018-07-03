@@ -24,6 +24,7 @@ button {
     padding-left: 50px;
 }
 #container {
+    padding-left: 3%;
     width: 30%;
     height: 250px;
     border: 1px solid lightgray;
