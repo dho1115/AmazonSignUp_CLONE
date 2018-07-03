@@ -1,5 +1,9 @@
 
 
+a {
+    text-decoration: none;
+} 
+
 body {
     margin-left: 30%;
 } 
@@ -9,14 +13,28 @@ button {
     width: 90%;
 } 
 
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+} 
+
 #logodiv {
     width: 30%;
     padding-left: 50px;
 }
 #container {
     width: 30%;
-    height: 300px;
-    border: 1px solid black;
+    height: 250px;
+    border: 1px solid lightgray;
+    border-radius: 3px;
+} 
+
+#createaccount {
+    width: 30%;
+    background-color: lightgray;
+    margin-top: 1%;
+    border-radius: 5px;
 } 
 
 h3 {
@@ -26,4 +44,22 @@ h3 {
 input {
     width: 90%;
 } 
+
+li {
+    float: left;
+    padding: 10px;
+}
+
+li#first {
+    padding-left: 0px;
+}
+
+li:a {
+    display: block;
+    text-decoration: none;
+}
+ul {
+    list-style-type: none;
+    padding: 0px;
+}
 
